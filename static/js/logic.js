@@ -1,8 +1,7 @@
 // Select which data to use: all day / all week / all month
 
 // let URL = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson'; // all day
-let URL =
-  "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"; // all week
+let URL = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"; // all week
 // let URL = 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson'; // all month
 
 // Load in geoJSON data
@@ -89,11 +88,12 @@ function getColor(depth) {
 
 // Define createMap function
 function createMap(earthquakes) {
+    // Read in the tectonic Plates data
   d3.json(plates).then(function (response) {
     console.log(response.features[0]);
     let plates = L.geoJSON(response.features);
 
-    // tileLayer, baseMap and overlayMaps
+    // tileLayers, baseMaps and overlayMaps
     let street = L.tileLayer(
       "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
       {
