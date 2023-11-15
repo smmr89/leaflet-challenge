@@ -9,6 +9,7 @@ This repository contains solutions to the Leaflet.js challenge Module 15. A plot
 * Open the `index.html` file on a browser or go to https://smmr89.github.io/leaflet-challenge/
 * Circle markers on the Map are sized according to magntiude
 * Circle markers colours on the Map are coloured according to depth (see Legend at bottom right)
+* Toggle options using top right hand side control element
 
 ## References
 
