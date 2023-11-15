@@ -12,4 +12,6 @@ This repository contains solutions to the Leaflet.js challenge Module 15. A plot
 
 ## References
 
-Insightful discussions with OpenAI ChatGPT - https://chat.openai.com/
+1. Tectonic Plates: https://github.com/fraxen/tectonicplates/
+2. Earthquake Data: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+3. Insightful discussions with OpenAI ChatGPT - https://chat.openai.com/
